@@ -13,13 +13,13 @@ int main() {
     resta = num1 - num2;
     multiplicacion = num1 * num2;
 
-    printf("La suma de %.1f y %.1f es: %.1f\n", num1, num2, suma);
-    printf("La resta de %.1f y %.1f es: %.1f\n", num1, num2, resta);
-    printf("La multiplicación de %.1f y %.1f es: %.1f\n", num1, num2, multiplicacion);
+    printf("La suma de %.4f y %.4f es: %.4f\n", num1, num2, suma);
+    printf("La resta de %.4f y %.4f es: %.4f\n", num1, num2, resta);
+    printf("La multiplicación de %.4f y %.4f es: %.4f\n", num1, num2, multiplicacion);
 
     if (num2 != 0) {
         division = num1 / num2;
-        printf("La división de %.1f entre %.1f es: %.1f\n", num1, num2, division);
+        printf("La división de %.4f entre %.4f es: %.4f\n", num1, num2, division);
     } else {
         printf("Division Error: No se puede dividir entre 0.\n");
     }
